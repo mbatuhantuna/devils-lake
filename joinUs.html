@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+    Author: firstName lastName
+    Date: mm/dd/yyyy
+-->
+<html lang="en">
+
+<head>
+    <title>Join Us!</title>
+    <meta charset="utf-8">
+    <link rel="styleSheet" href="styleSheets/main.css">
+    <link rel="stylesheet" href="styleSheets/joinus.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logoDevilsLake.jpeg" alt="logo" id="logo">
+        <!-- link for images https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/devils-lake-state-park-wisconsin-geoff-strehlow.jpg -->
+        <h1>Join Us!</h1>
+        <nav>
+            <a href="index.html">Home</a>&#x2022;
+            <a href="todo.html">To do</a>&#x2022;
+            <a href="joinus.html">Join Us</a>&#x2022;
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Join Our Mission: Become a Volunteer and Make a Difference Today</h2>
+            <img src="images/hiringDevilsLake.webp" alt="hiring" id="hiring">
+            <!-- link for img https://www.insider.com/national-park-secrets-2017-6 -->
+            <p>
+                We are currently seeking volunteers to join our team and help us with our mission. As a volunteer, you
+                will
+                have the opportunity to make a difference in the lives of others, gain valuable experience, and meet new
+                people. We have a variety of volunteer positions available, including event coordination, fundraising,
+                and
+                administrative support. No prior experience is necessary - just a willingness to learn and a desire to
+                make
+                a positive impact in your earth.</p>
+        </article>
+        <section>
+            <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
+                <h2>Volunteer Application Form</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="18" max="100" required>
+                <br>
+                <div class="radio-group">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                </div>
+                    <br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <br>
+                    <input type="radio" id="others" name="gender" value="others">
+                    <label for="others">Others</label>
+                    <br>
+                    <label for="availability">Availability:</label>
+                    <select id="availability" name="availability" required>
+                        <option value="" disabled selected>Select your availability</option>
+                        <option value="Weekdays">Weekdays</option>
+                        <option value="Weekends">Weekends</option>
+                        <option value="Flexible">Flexible</option>
+                    </select>
+                    <br>
+                    <label for="interests">Interests:</label>
+                    <br>
+                    <textarea id="interests" name="interests" required></textarea>
+                    <br>
+                    <label for="experience">Previous Volunteer Experience:</label>
+                    <br>
+                    <textarea id="experience" name="experience"></textarea>
+                    <br>
+                    <label for="message">Additional Message:</label>
+                    <br>
+                    <textarea id="message" name="message"></textarea>
+                    <br>
+                    <div class="button-container">
+                        <input type="submit" value="Submit Application">
+                        <input type="reset" value="Reset Form">
+                    </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="todo.html#freeId" id="freeToBorrow">Free To Borrow</a>
+        <address>
+            <p>Developed by:<a href="mailto:mtuna@madisoncollege.edu">Mustafa Batuhan TUNA</a></p>
+        </address>
+    </footer>
+</body>
+
+</html>

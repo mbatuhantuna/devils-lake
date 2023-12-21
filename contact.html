@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+    Author: firstName lastName
+    Date: mm/dd/yyyy
+-->
+<html lang="en">
+
+<head>
+    <title>Contact Us </title>
+    <meta charset="utf-8">
+    <link rel="styleSheet" href="styleSheets/main.css">
+    <link rel="stylesheet" href="styleSheets/contact.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logoDevilsLake.jpeg" alt="logo" id="logo">
+        <!-- link for images https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/devils-lake-state-park-wisconsin-geoff-strehlow.jpg -->
+        <h1>Contac Us!</h1>
+        <nav>
+            <a href="index.html">Home</a>&#x2022;
+            <a href="todo.html">To do</a>&#x2022;
+            <a href="joinus.html">Join Us</a>&#x2022;
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
+                <h2>Contact Us</h2>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <div class="button-container">
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </section>
+            <section>
+                <h3>Hours</h3>
+                <ul>
+                    <li>Thursday 6AM-11PM </li>
+                    <li>Friday 6AM-11PM</li>
+                    <li>Friday 6AM-11PM</li>
+                    <li>Saturday 6AM-11PM</li>
+                    <li>Sunday 6AM-11PM</li>
+                    <li>Monday 6AM-11PM</li>
+                    <li>Tuesday 6AM-11PM</li>
+                    <li>Wednesday 6AM-11PM</li>
+                </ul>
+                <p>Phone <a href="tel:+16083568301">6083568301</a></p>
+            </section>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11592.202784873467!2d-89.73201909999999!3d43.4177675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88076b70e8707b1f%3A0xdd69a4c886580ec0!2sDevils%20Lake!5e0!3m2!1sen!2sus!4v1682468024225!5m2!1sen!2sus"
+                width="400" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+
+    <footer>
+        <a href="todo.html#freeId" id="freeToBorrow">Free To Borrow</a>
+        <address>
+            <p>Developed by:<a href="mailto:mtuna@madisoncollege.edu">Mustafa Batuhan TUNA</a></p>
+        </address>
+    </footer>
+</body>
+
+</html>

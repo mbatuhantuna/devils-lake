@@ -1,0 +1,58 @@
+/*
+    Your name
+    Today's date
+*/
+
+
+#devilshead {
+    
+    border-radius: 2em;
+    width: 25em;
+    height: 25em;
+    float: right;
+    padding: .8em;
+
+} 
+
+ul {
+    font-weight: bolder; 
+}
+
+
+main {
+    
+    border: solid .4em rgb(107, 40, 40);
+    border-radius: 1em;
+    background-color: darkkhaki;
+    padding: 1em 1em 2em 2em ;
+}
+
+table {
+   
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #082A5A;
+    background-color: darkkhaki;
+    border-radius: 2em;
+    color: #333;
+  }
+  
+  td a {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  td a:hover {
+    background-color: #082A5A;
+    color: #fff;
+    border-radius: 4em;
+  }

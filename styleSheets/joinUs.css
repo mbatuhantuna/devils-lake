@@ -1,0 +1,59 @@
+/*
+    Your name
+    Today's date
+*/
+
+
+
+article p {
+  background-color: darkkhaki;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: solid .4em rgb(107, 40, 40);
+  padding: 1em;
+  border-radius: 1em;
+
+}
+
+
+form {
+  background: url(../images/formBack.jpeg );
+  border: solid .4em rgb(107, 40, 40);
+  border-radius: 2em;
+  padding: 2em 3em .1em 3em;
+  box-shadow: 0 0 10px #050505;
+  color: rgb(7, 7, 7);
+  font-size: large;
+}
+
+label {
+  background-color: aliceblue;
+  padding: .4em;
+  border-radius: .3em;
+}
+
+input,
+select,
+textarea {
+  margin-top: 10px;
+  margin-bottom: 2em;
+}
+
+input[type="radio"] {
+  display: inline-block;
+}
+
+textarea {
+  width: 86%;
+  height: 360px;
+  border-radius: 15px;
+  border: 2px solid #A87B50;
+  padding: 2em 2em 2em 2em;
+}
+
+main img {
+  width: 90%;
+  height: 25em;
+  margin: 0 auto;
+  border-radius: 4%;
+}

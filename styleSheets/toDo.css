@@ -1,0 +1,32 @@
+/*
+    Your name
+    Today's date
+*/
+
+article img {
+
+    border: solid burlywood;
+    width: 20em;
+    height: 25em;
+    border-radius: 2em;
+
+}
+
+article {
+
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px #000000;
+    background-color: darkkhaki;
+    border: solid .4em rgb(107, 40, 40);
+    border-radius: 1em;
+}
+
+#bacpack, #bacpackdevils {
+
+    width: 15em;
+    height: 15em;
+}
+
+
